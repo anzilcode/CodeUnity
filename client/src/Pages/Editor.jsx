@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import Editor from "@monaco-editor/react";
-import { Copy, Play, Users, X } from "lucide-react"; // Lucide icons
+import { Copy, Play, Users, X } from "lucide-react"; 
 
 const EditorRoom = ({ socket, roomId, userName, setJoin, setRoomId, setUserName }) => {
   const [language, setLanguage] = useState("python");
