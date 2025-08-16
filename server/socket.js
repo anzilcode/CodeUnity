@@ -4,7 +4,7 @@ import dotenv from "dotenv";
 
 dotenv.config();
 
-const PISTON_API = process.env.PISTON_API || "https://emkc.org/api/v2/piston/execute";
+const PISTON_API = process.env.PISTON_API;
 
 export function setupSocket(io) {
   const rooms = new Map();
