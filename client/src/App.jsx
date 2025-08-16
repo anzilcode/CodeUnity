@@ -3,7 +3,7 @@ import { useState } from "react";
 import JoinForm from "./Pages/JoinForm";
 import EditorRoom from "./Pages/Editor";
 
-const socket = io("http://localhost:5000");
+const socket = io("https://codeunity-backend.onrender.com");
 
 const App = () => {
   const [roomId, setRoomId] = useState("");
